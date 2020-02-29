@@ -1,0 +1,102 @@
+*{
+    margin: 0px;;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans' ;
+}
+.sign-up-container{
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    background: url(../img/register-background.jpg) center center no-repeat;
+    background-size:cover; 
+}
+.form-sign-up{
+    min-width: 500px;
+    background: white;
+
+}
+.form-sign-up h3,.form-sign-in h3{
+    margin: 50px 0px 50px 0px;
+    font-size: 32px;
+    text-align: center;
+    color:#7b8396;
+}
+
+.input-wrapper input{
+    height: 38px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+}
+.name-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.name-wrapper>.input-wrapper{
+    width:calc(50% - 5px)
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.form-footer{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-in-container {
+    background:url(../img/login-background.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.form-sign-in {
+    background: white;
+    min-width: 500px;
+}
+.input-wrapper input {
+    height: 38px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-content>* {
+    margin: 10px 50px;
+    /* dấu * là để dùng tất cả các phần tử trong này */
+}
+
+button {
+    height: 38px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 10px;
+    background: #4482ff;
+    color: white;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 0px;
+
+}
+.message-error{
+    color: red;
+}
+.message-success{
+    color: green;
+}
+button:disabled{
+    background: #f2f2f2;
+}
